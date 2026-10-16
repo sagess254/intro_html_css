@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family: "Source Sans 3", sans-serif;
+            font-optical-sizing: auto;
+            margin: 0;
+        }
+
+        nav{
+            display: flex;
+            justify-content: center;
+            /* background-color: #928787; */
+            border-bottom: 1px solid black;
+        }
+
+        .content{
+            /* background-color: #baba16; */
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img{
+            width: 100px;
+            height: 100px;
+        }
+
+        .content ul{
+            display: flex;
+            list-style-type: none;
+        }
+
+        .content li{
+            margin-left: 16px;
+            margin-right: 16px;
+        
+        }
+        .content a{
+            text-decoration: none;
+            color: black;
+            padding: 12px 14px;
+            text-transform: capitalize;
+            
+        }
+        .content a:hover{
+            /* color: #302d2d; */
+            background-color: #948f89;
+            border-bottom: 1px solid #000;
+
+        }
+
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="content">
+        <div class="logo">
+            <img src="images/icons8-lorry-40.png" alt="logo">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Get Help</a></li>
+            <li><a href="#">Team</a></li>
+        </ul>
+    </div>
+</nav>
+    
+<!-- git add. -->
+ <!-- git commit -m "built the navbar" -->
+  <!-- git push  -->
+</body>
+</html
+
+
